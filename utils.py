@@ -11,8 +11,20 @@ def discrete_action(action):
     d_action = [0, 0, 0]
     if action[0] > 0:
         d_action[0] = 1
-    if action[0] < 0:
+    elif action[0] < 0:
         d_action[1] = 1
-    if action[2] > 0:
+    elif action[2] > 0:
         d_action[2] = 1
     return d_action
+    
+def actionTransform(action):
+    continuous_action = [0, 0, 0, 0, 0]
+    if action[0] > 0:
+        continuous_action[0] = 60
+        continuous_action[2] = 1
+    if action[1] > 0:
+        continuous_action[0] = -60
+        continuous_action[2] = 1
+    if action[2] > 0:
+        continuous_action[2] = 1
+    return continuous_action
