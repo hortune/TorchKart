@@ -17,9 +17,9 @@ from IPython import embed
 from pretrain import preTrain
 
 model = Network().cuda()
-epochs = 100
+epochs = 300
 batch_size = 128
-pretrain = True
+pretrain = False
 episodes = 1000000
 
 if not pretrain:
@@ -30,5 +30,5 @@ else:
 import gym, gym_mupen64plus
 
 env = gym.make('Mario-Kart-Luigi-Raceway-v0')
-dqn = DQN(env,model)
+dqn = DQN(env)
 dqn.train()

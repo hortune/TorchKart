@@ -17,7 +17,7 @@ class Network(nn.Module):
         self.conv4 = nn.Conv2d(64, 64, kernel_size=(2, 2), stride=(1, 1))
         self.pool2 = nn.MaxPool2d(2)
         self.dense1 = nn.Linear(5 * 8 * 64, 512)
-        self.dense2 = nn.Linear(512, 3)
+        self.dense2 = nn.Linear(512, 4)
     def forward(self, input):
         output = F.relu(self.conv1(input.transpose(3, 2).transpose(2, 1)))
         output = F.relu(self.conv2(output))
