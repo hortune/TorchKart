@@ -16,16 +16,13 @@ from model import Network
 from IPython import embed
 from pretrain import preTrain
 
-model = Network().cuda()
-epochs = 300
-batch_size = 128
-pretrain = False
-episodes = 1000000
 
+pretrain = True
 if not pretrain:
+    model = Network().cuda()
+    epochs = 300
+    batch_size = 128
     preTrain(model,epochs,batch_size)
-else:
-    model.load_state_dict(torch.load('pre-train.pt'))
 
 import gym, gym_mupen64plus
 

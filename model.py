@@ -27,5 +27,6 @@ class Network(nn.Module):
         output = self.pool2(output)
         output = F.relu(self.dense1(output.view(-1, 5 * 8 * 64)))
         output = self.dense2(output)
-        return F.sigmoid(output)
+        return output
+        #return F.sigmoid(output)
 
