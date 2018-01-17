@@ -2,7 +2,7 @@
 
 data
 ----
-We prepare 10 races on Luigi Raceway for training.
+We prepare 10 races on Luigi Raceway for training at [data_link](work.hortune.tw:8000/60_data).
 ```
 data/0_x.npy
 data/0_y.npy
@@ -25,3 +25,4 @@ Testing
 python3 main.py --test
 ```
 The Program will load ```pre-train.pt``` and plays on Luigi Raceway.
+
