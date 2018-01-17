@@ -90,9 +90,12 @@ Password : mlds
 ```
 
 ## After Installation If remote
-接著，你必須在你的Windows電腦上安裝Vcxsrv或是XQuartz。
+接著，你必須在你的Windows電腦上安裝Vcxsrv或是XQuartz。 (如果是Vcxsrv 記得要把wg優化關掉)
 如果沒有Windows電腦只能請你用204電腦implement。
 
 連線時，必須要下 `ssh -XY username@work.hortune.tw`，沒下的話不會有X11 Forwarding，所以自己工作站的Forwarding也要打開。
 
 然後應該就可以使用了。
+
+## E.t.c
+如果遇到任何困難，請email b04611015@csie.ntu.edu.tw，我不想被當QQ
