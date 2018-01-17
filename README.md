@@ -78,6 +78,10 @@ cat /proc/driver/nvidia/version
 
 ## If You Hate The Setup
 因為安裝真的很繁瑣，在這裡提供工作站一組帳密。
+```
+Username : ctf
+Password : mlds
+```
 
 ## After Installation If remote
 接著，你必須在你的Windows電腦上安裝Vcxsrv或是XQuartz。
