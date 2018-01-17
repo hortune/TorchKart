@@ -42,10 +42,11 @@ The Program will load ```pre-train.pt``` and plays on Luigi Raceway.
 
 ### 安裝環境
 Ubuntu 16.04
+python 3.5
 
 ### 安裝mupen64plus
 `sudo apt install mupen64plus`
-然後照著`gym-mupen64plus`安裝。
+然後照著`gym_mupen64plus`安裝。 [link](https://github.com/hortune/gym_mupen64plus.git)
 接著你需要重編你的cuda跟nvidia-driver，為了支援即時顯示。
 
 ```
@@ -74,7 +75,7 @@ nvidia-smi
 cat /proc/driver/nvidia/version
 ```
 
-重裝完後，你不需去下載vglrun，並且自己編譯並安裝。
+重裝完後，你需要去下載vglrun，並且自己編譯並安裝。
 
 ## If You Hate The Setup
 因為安裝真的很繁瑣，在這裡提供工作站一組帳密。
