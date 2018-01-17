@@ -47,6 +47,7 @@ python 3.5
 ### 安裝mupen64plus
 `sudo apt install mupen64plus`
 然後照著`gym_mupen64plus`安裝。 [link](https://github.com/hortune/gym_mupen64plus.git)
+如果再安裝過程中有缺套件，請google一下，因為ubuntu的distribution上的套件最近更新頻繁，不太可能每個都列。
 接著你需要重編你的cuda跟nvidia-driver，為了支援即時顯示。
 
 ```
