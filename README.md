@@ -98,4 +98,4 @@ Password : mlds
 然後應該就可以使用了。
 
 ## E.t.c
-如果遇到任何困難，請email b04611015@csie.ntu.edu.tw，我不想被當QQ
+如果遇到任何困難，請email b04611015@csie.ntu.edu.tw，當初弄環境重灌了兩次電腦QQ，我不想被當QQ
