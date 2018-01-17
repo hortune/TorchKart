@@ -78,6 +78,10 @@ cat /proc/driver/nvidia/version
 
 重裝完後，你需要去下載vglrun，並且自己編譯並安裝。
 
+**Warning**
+如果你configure完vglrun，發現nvidia-smi permission不足，請手動修改顯卡所屬的user group。
+
+
 ## If You Hate The Setup
 因為安裝真的很繁瑣，在這裡提供工作站一組帳密。
 ```
