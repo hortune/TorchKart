@@ -2,7 +2,7 @@
 
 data
 ----
-We prepare 10 races on Luigi Raceway for training at [data_link](work.hortune.tw:8000/60_data).
+We prepare 10 races on Luigi Raceway for training at [data_link](http://work.hortune.tw:8000/60_data).
 ```
 data/0_x.npy
 data/0_y.npy
